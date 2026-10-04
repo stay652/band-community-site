@@ -1,2 +1,31 @@
-# band-community-site
-Band community website prototype with login, board, calendar, chat, notices, resources, and admin panel.
+# Band Community Site
+
+밴드 커뮤니티 웹사이트 프로토타입입니다.
+
+## 기술 스택
+- Next.js 14
+- React 18
+- TypeScript
+
+## 기능
+- 닉네임 로그인
+- 자유/공지 게시판
+- 전체 일정 캘린더
+- 실시간 채팅
+- 자료실(등급별 접근)
+- 관리자 패널
+- 모바일 대응 UI
+
+## 실행 방법
+```bash
+npm install
+npm run dev
+```
+
+브라우저에서 `http://localhost:3000` 으로 접속하세요.
+
+## 기본 계정
+- 관리자: `stay99`
+
+## 참고
+이 프로젝트는 초기 프로토타입으로, 실제 데이터베이스와 인증/실시간 기능은 이후 단계에서 확장할 수 있습니다.
